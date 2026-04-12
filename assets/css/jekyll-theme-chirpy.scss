@@ -1,0 +1,88 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ═══════════════════════════════════════
+   Yi Ju · Glacial Blue Theme
+   覆盖 Chirpy 默认变量
+═══════════════════════════════════════ */
+
+:root {
+  /* 主色 */
+  --link-color: #1a72b8;
+  --link-underline-color: rgba(26, 114, 184, 0.3);
+
+  /* 侧边栏 */
+  --sidebar-bg: #ffffff;
+  --sidebar-border-color: #e8eef4;
+  --sidebar-muted-color: #6b7e91;
+
+  /* 正文 */
+  --heading-color: #0d2340;
+  --text-color: #3a4f63;
+  --blockquote-border-color: #1a72b8;
+  --blockquote-text-color: #6b7e91;
+
+  /* 代码块 */
+  --code-bg-color: #f4f8fc;
+  --highlighter-rouge-color: #1a72b8;
+
+  /* 标签/badge */
+  --tag-bg: #eaf3fb;
+  --tag-hover-bg: #d6e8f5;
+
+  /* 分割线 */
+  --border-color: #e8eef4;
+
+  /* 字体 */
+  --font-family-base: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-heading: 'DM Sans', -apple-system, sans-serif;
+}
+
+/* Google Fonts 引入 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap');
+
+/* 侧边栏头像下方名字加粗一点 */
+#sidebar .site-title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #0d2340;
+}
+
+/* 侧边栏导航激活状态 */
+#sidebar .nav-link.active {
+  color: #1a72b8 !important;
+  background: #eaf3fb;
+  border-radius: 6px;
+}
+
+/* 文章标题链接颜色 */
+.post-preview h1 a,
+.post-preview h2 a {
+  color: #0d2340;
+}
+.post-preview h1 a:hover,
+.post-preview h2 a:hover {
+  color: #1a72b8;
+}
+
+/* 标签 pill */
+.post-tag {
+  border: 0.5px solid #d6e8f5;
+  background: #eaf3fb;
+  color: #1a72b8;
+}
+.post-tag:hover {
+  background: #d6e8f5;
+  border-color: #1a72b8;
+}
+
+/* 按钮/分页 */
+.btn-paginator {
+  border-color: #d6e8f5;
+  color: #1a72b8;
+}
+.btn-paginator:hover {
+  background: #eaf3fb;
+}
