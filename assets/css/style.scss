@@ -2,4 +2,36 @@
 ---
 
 @import "main";
-@import "jekyll-theme-chirpy/custom";
+
+/* Yi Ju · Glacial Blue */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --font-family-base: 'DM Sans', -apple-system, sans-serif;
+}
+
+[data-mode="light"], :root {
+  --link-color: #1a72b8;
+  --link-underline-color: rgba(26,114,184,0.25);
+  --sidebar-bg: #ffffff;
+  --heading-color: #0d2340;
+  --text-color: #3a4f63;
+  --border-color: #e8eef4;
+  --tag-bg: #eaf3fb;
+  --tag-hover-bg: #d6e8f5;
+  --blockquote-border-color: #1a72b8;
+}
+
+body { font-family: 'DM Sans', -apple-system, sans-serif; }
+
+#sidebar a.nav-link.active {
+  color: #1a72b8 !important;
+  background-color: #eaf3fb !important;
+}
+
+.post-tag {
+  background: #eaf3fb !important;
+  color: #1a72b8 !important;
+  border-color: #d6e8f5 !important;
+}
