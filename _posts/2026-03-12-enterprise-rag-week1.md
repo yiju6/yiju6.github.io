@@ -45,4 +45,4 @@ The real answer should come from evaluation, not intuition — which is exactly 
 
 ---
 
-The full repo is [here](https://github.com/yiju6/enterprise-rag). For those who've taken AI systems from demo to production — where did you hit the hardest engineering walls?
+The full repo is [here](https://github.com/yiju6/enterprise-rag-system). For those who've taken AI systems from demo to production, where did you hit the hardest engineering walls?
