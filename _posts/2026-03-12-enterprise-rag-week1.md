@@ -1,6 +1,6 @@
 ---
 title: "Building an Enterprise RAG System: Week 1"
-date: 2026-03
+date: 2026-03-12
 categories: [AI]
 tags: [RAG, AI, engineering, production]
 image:
